@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    font-size: 20px;
+
+    transition: 0.2s all ease;
+
+    background-color: #f7f7f7;
+
+    user-select: none;
+}
+.image{
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    & img{
+        width: 100%;
+        height: 100%;
+    }
+}

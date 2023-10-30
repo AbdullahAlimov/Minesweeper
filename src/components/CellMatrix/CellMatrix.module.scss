@@ -1,0 +1,13 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: fit-content;
+    height:  fit-content;
+    background: rgb(222, 222, 222);
+}
+.matrix{
+    display: grid;
+    gap: 3px;
+}
