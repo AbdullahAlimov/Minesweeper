@@ -5,7 +5,7 @@ import { actions } from '../../state/slice/matrixContent.slice';
 import bombImage from '../../assets/bomb.svg'
 import flagImage from '../../assets/flag.svg'
 
-const Cell = ({ item, indexY, indexX, setSwitchTimer, clickMode,setResultGame,setModalValue }) => {
+const Cell = ({ item, indexY, indexX, setSwitchTimer, clickMode,setResultGame}) => {
 
     const matrix = useSelector(state => state.matrixContent);
     const dispatch = useDispatch();
